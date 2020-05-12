@@ -1,0 +1,31 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+a {
+  color: #fff;
+}
+
+ul {}
+
+#list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+#list li {
+  background-color: tomato;
+  color: #fff;
+  flex-grow: 1;
+  margin: 1rem;
+  border-radius: 25px;
+}
+
+#list ul {
+  text-align: left;
+}
